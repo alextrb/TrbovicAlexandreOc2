@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+<!-- TL;DR: By default I use margin everywhere, except when I have a border or background and want to increase the space inside that visible box. 
+https://stackoverflow.com/questions/2189452/when-to-use-margin-vs-padding-in-css 
+text-indent: 50px; -->
 <html>
     <head>
         <title>CV Alexandre</title>
@@ -21,36 +19,39 @@ and open the template in the editor.
                 <li><a href="#projet"> Projet </a></li>
             </ul>
         </nav>
-         <h2 id="presentation">  </h2>
-         <p>
-             Actuellement en 2eme annee du cycle ingenieur (Bac +4) en majeure Objets Connectes,
-             je recherche un stage d’une duree de 4 mois, a partir du 16/04 dans le developpement mobile.
-             J’aimerais plus particulierement developper mes competences en Java, C | C++ ainsi que dans l’IoT
-             (securite, BLE, LoRa, interoperabilite, etc.)
-        </p>         
+         <section id="presentation" > 
+         <h4 id="keywords">
+             Actuellement en 2èmeannée du cycle ingénieur (Bac +4) en majeure Objets Connectés, je recherche un stage d’une durée 
+             de 4 mois, à partir du 16/04dans le développement mobile. J’aimerais plus particulièrement développer mes compétences en Java,
+             C | C++ainsi quedans l’IoT (sécurité, BLE, LoRa,interopérabilité,etc.)
+         </h4>
+         </section>
+        
         <main id="mainContent">
+            
             <section id="educationSection">
                 <h2 id="education"> Education </h2>
+                <h3 class="dateAndOverview"> 2017-2018 ECE : Master 1 en OBJETS CONNECTES, RÉSEAUX ET SERVICES </h3>
                 <p>
-                    2017-2018 ECE : Master 1 en OBJETS CONNECTES, RÉSEAUX ET SERVICES
                     Formation aussi bien technique : Réseaux IP, Intégration de Capteurs au sein d’un Objet Connecté, 
                     Conception 3D que transversale : Design Thinking, Management d’Équipes, Gestion Budgétaire.
                 </p>
+                <h3 class="dateAndOverview"> 2016-2017 BANGOR UNIVERSITY : Second semestre | Pays-de-Galles </h3>
                 <p>
-                    2016-2017 BANGOR UNIVERSITY : Second semestre | Pays-de-Galles
                     Je suis allé étudier un semestre à l’étranger. J’ai choisi un pays anglophone comme destination
                     afin de perfectionner mon anglais et m’ouvrir grâce aux enseignements très diversifiés dispensés par les multiples pôles de l’université
                 </p>
+                <h3 class="dateAndOverview"> 2016-2017 ECE : 1ère année du CYCLE INGENIEUR </h3>
                 <p>
-                    2016-2017 ECE : 1ère année du CYCLE INGENIEUR
                     Semestre de formation aux nouvelles technologies du numérique à l’ECE Paris École d’ingénieur généraliste, Paris 15ème. Développement 
                     de connaissances pratiques grâce aux mini-projets en équipe (électroniques et informatiques)
                 </p>
+                <h3 class="dateAndOverview"> 2013-2016 LYCEE BUFFON : étudiant en CLASSES PREPARATOIRES (CPGE) </h3>
                 <p>
-                    2013-2016 LYCEE BUFFON : étudiant en CLASSES PREPARATOIRES (CPGE)
                     MPSI puis passage en MP* (maths-physique) : apprentissage d’une rigueur stricte et de l’importance des objectifs à long terme pour l’aboutissement d’un projet
                 </p>
             </section>
+            
             <section id="experienceSection">
                 <h2 id="experience"> Experience </h2>
                 <p>
@@ -64,18 +65,39 @@ and open the template in the editor.
                     J’accompagne nos clients pour mener à bien leurs projets avec l’aide des consultants qui réalisent la mission
                         Immersion dans le monde de l’entreprise
                         Prise de décision et responsabilisation (rendez-vous client, cahiers des charges, …)
-                </p>
+                </p>   
+                
             </section>
+            
             <section id="projetSection">
                 <h2 id="projet"> Projet </h2>
+                <section>
+                    <h3> Décodage d'un sginal lumineux </h3>
                 <p>
-                    
+                    Décodage d’un signal lumineux Nous avons  réalisé  une  chaîne  de  mesure comportant  entre  autres  une  photodiode et  une  board Arduino  Nano  afin  détecter un  signal lumineux  et  de  le traiter.
                 </p>
+                </section>
+                <p>
+                    Professeur particulier Depuis   2015, professeur    de   soutien    et d’approfondissement  en  sciencesdu niveau  collège  à Bac  +1  (3h par  semaine)
+                        Pédagogie
+                        Organisation
+                </p>
+                <p>
+                    On My Way! Chef   de   ce   projet    qui   rassemble   9 étudiants  grâce  à  la  collaboration  avec une école de commerce.  L’application On  My  Way!  permettra   
+                    de  partager simplement  nos  balades  coup  de cœur à  l’ensemble  de  la  communauté  des Wayers.
+                </p>
+                <dl id="Hobbies">
+                    <dt> Hobbies </dt>
+                    <dd> Jeux multi-joueurs (stratégie, travail d’équipe, fidélité)
+                    <dd> Fitness
+                    <dd> Boxe thaïlandaise (détermination, volonté)
+                </dl>
             </section>
         </main>     
            
              
              
+         
         chez <abbr title="Junior Entreprise de l'ECE">JEECE</abbr> la junior
         <div>TODO write content</div>
     </body>
