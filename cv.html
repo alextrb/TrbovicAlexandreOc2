@@ -7,6 +7,7 @@ text-indent: 50px; -->
         <title>CV Alexandre</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="script.js"></script> 
     </head>
     
     <body>
@@ -93,9 +94,17 @@ text-indent: 50px; -->
                     <dd> Boxe thaïlandaise (détermination, volonté)
                 </dl>
             </section>
+            <form name="Contact" method="post">
+                    <label for="e-mail">Votre email :</label>
+                    <input type="email" name="e-mail" id="e-mail" placeholder="Ex : monadresse@ex.fr"/>
+                    <label for="sujet">Sujet :</label>
+                    <input type="text" name="sujet" id="sujet" placeholder="Ex : Offre de stage"/>
+                    <label for="message">Votre message :</label>
+                    <textarea name="message" id="message" placeholder="Ex : Bonjour, ..." cols="40" rows="4"></textarea>
+                    <button onclick="confirm()">Envoyer</button>
+                    
         </main>     
            
-             
              
          
         chez <abbr title="Junior Entreprise de l'ECE">JEECE</abbr> la junior
